@@ -1,0 +1,61 @@
+.bgimg{
+    background-image: url(computer.jpeg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+.navbar ul a{
+    margin: 0 20px;
+    color: rgba(204, 204, 204, 0.623) !important;
+    text-transform: uppercase;
+}
+.style1{
+    padding-top: 250px;
+}
+.style1 h2{
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 3px 5px black;
+}
+.style1 h1{
+    font-size: 70px;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 1px 3px 5px wheat;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background: transparent;
+}
+.style2{
+    padding: 90px 0 50px;
+}
+.style2 h1{
+    padding-bottom: 20px;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 5px red;
+}
+.style2 h2{
+    font-size: 24px;
+}
+.rowsetting{
+    padding-top: 40px;
+}
+.style2 .fa{
+    margin-bottom: 20px;
+    padding:50px;
+    background:tomato;
+    border-radius: 50%;
+    cursor: pointer;
+    text-shadow: 1px 2px 7px black;
+}
+.style2 h3{
+    margin: 10px;
+    text-transform: capitalize;
+}

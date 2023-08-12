@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body onload="setInterval(startTime,1000)">
+<script>
+	function startTime() {
+		var today = new Date();
+		document.getElementById('txt').innerHTML=today.toLocaleTimeString();
+	}
+</script>
+<p id="txt"></p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>case</title>
+</head>
+<body>
+<script>
+	var days=parseInt(prompt("Enter A Days"))
+	switch(days)
+	{
+		case 0:document.write("sunday");break;
+		case 1:document.write("monday");break;
+		case 2:document.write("tuesday");break;
+		case 3:document.write("Wednesday");break;
+		case 4:document.write("Thursday");break;
+		case 5:document.write("Friday");break;
+		case 6:document.write("Saturday");break;
+		default:document.write("please Enter A Days")
+	}
+	var date=new Date();
+	document.write(date.toLocalTimeString())
+</script>
+</body>
+</html>

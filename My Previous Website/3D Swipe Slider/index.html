@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3D Swipe Slider</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- Swiper -->
+<h1>Top 10 Handsome Girls In The World</h1>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      	<img src="images/nana.jpg">	
+      	</div>
+      	<div class="details">
+      	<h3>Nana<br><span></span></h3>	
+      	</div>
+      </div> 
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      	<img src="images/Bella.jpg">	
+      	</div>
+      	<div class="details">
+      	<h3>Bella<br><span>Actor Model</span></h3>	
+      	</div>
+      </div> 
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      	<img src="images/alexandra daddario.jpg">	
+      	</div>
+      	<div class="details">
+      	<h3>Alexandra Daddario<br><span>Actor Model</span></h3>	
+      	</div>
+      </div> 
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      	<img src="images/emma stone.jpg">	
+      	</div>
+      	<div class="details">
+      	<h3>Emma Stone<br><span>Actor Model</span></h3>	
+      	</div>
+      </div> 
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      	<img src="images/ju jingyi.jpg">	
+      	</div>
+      	<div class="details">
+      	<h3>Sir Iqbal<br><span>Actor Model</span></h3>	
+      	</div>
+      </div> 
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      	<img src="images/liza soberano.jpg">	
+      	</div>
+      	<div class="details">
+      	<h3>Liza Sorberano<br><span>Actor Model</span></h3>	
+      	</div>
+      </div> 
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      	<img src="images/fan bingbing.jpg">	
+      	</div>
+      	<div class="details">
+      	<h3>Fan Bingbing<br><span>Actor Model</span></h3>	
+      	</div>
+      </div> 
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      	<img src="images/selena gomez.jpg">	
+      	</div>
+      	<div class="details">
+      	<h3>Selena Gomez<br><span>Actor Model</span></h3>	
+      	</div>
+      </div> 
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      	<img src="images/taylor swift.jpg">	
+      	</div>
+      	<div class="details">
+      	<h3>Taylor Swift<br><span>Actor Model</span></h3>	
+      	</div>
+      </div> 
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      	<img src="images/deepika padukone.jpg">	
+      	</div>
+      	<div class="details">
+      	<h3>Deepika Padukone<br><span>Actor Model</span></h3>	
+      	</div>
+      </div> 
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+<script type="text/javascript" src="swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 70,
+        stretch: 0,
+        depth: 500,
+        modifier: 2,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>

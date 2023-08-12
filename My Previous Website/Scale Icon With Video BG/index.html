@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scale Icon With Video BG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="banner">
+	<video autoplay="" muted="" loop="">
+	<source src="image/video1.mp4" type="">	
+	</video>
+<div id="bg"></div>	
+</div>
+<script>
+	let bg = document.querySelector('#bg');
+	window.addEventListener('scroll',function(){
+		let value = window.scrollY;
+		bg.style.backgroundSize = 100 + value*2 + "px";
+	})
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neumorphic Button</title>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+	background:url(audi3.jpg);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+.btn{
+	min-width: 150px;
+	padding: 15px 10px;
+	margin: 20px;
+	background: rgb(214,214,214);
+	border: none;
+	border-radius: 25px;
+	color: rgb(50,207,207);
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	box-shadow: -7px -7px 20px 0 rgba(255,255,255,0.7),7px 7px 20px 0 rgba(0,0,0, 0.2);
+}
+.btn:hover{
+    box-shadow: inset -7px -7px 20px 0 rgba(255,255,255,0.7), inset 7px 7px 20px 0 rgba(0,0,0, 0.2);
+}
+</style>
+</head>
+<body>
+<button class="btn">SignUp</button>
+<button class="btn">SignIn</button>
+</body>
+</html>

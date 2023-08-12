@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url(images/khanakaba4.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+nav{
+	width: 100%;
+	height: 15vh;
+	background: rgb(0,0,0,0.1);
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+nav .logo{
+	width: 25%;
+	text-align: center;
+}
+nav .menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+nav .menu a{
+	width: 25%;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+nav .menu a:first-child{
+	color: #00b894;
+}
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+section{
+
+}
+section h3{
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 2px black;
+}
+section h1{
+	margin: 30px 0 20px 0;
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px black;
+	text-transform: uppercase;
+}
+section p{
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 5px 1px black;
+}
+section a{
+	padding: 12px 30px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 4px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	outline: none;
+	transition: all .5s ease;
+}
+.btnone{
+	color: #000;
+	background: #fff;
+}
+.btnone:hover{
+	color: #fff;
+	background: #00b894;
+}
+.btntwo{
+	color: #fff;
+	background: #00b894;
+}
+.btntwo:hover{
+	color: #000;
+	background: #fff;
+}
+.change-content:after{
+	content: '';
+	animation: changetext 4s infinite linear;
+	color: #00b894;
+}
+@keyframes changetext{
+	50%{content: "Makkah";}
+	100%{content: "Madina";}
+}

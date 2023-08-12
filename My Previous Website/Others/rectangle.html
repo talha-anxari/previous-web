@@ -1,0 +1,20 @@
+<!Doctype html>
+<html>
+<head>
+<script>
+window.onload = function()
+{
+var canvas = document.getElementById('mCanvas');
+var ctext = canvas.getContext('2d');
+
+ctext.rect(18, 50, 200, 100);
+ctext.fillStyle = "red";
+ctext.fill();
+ctext.clearRect(25, 60, 50, 50);
+};
+</script>
+</head>
+<body>
+<canvas id="mCanvas" width="578" height="200" style="border:red solid 1px"></canvas>
+</body>
+</html>

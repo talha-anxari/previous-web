@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animated</title>
+	<style>
+		p{
+			padding: 100px;
+			color: #ccc;
+			background: #000;
+		}
+	</style>
+</head>
+<body>
+<div id="ab">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<button id="b1">Animated</button>
+<button id="b2">Stop</button>
+<script>
+	$(document).ready(function() {
+		$("#b1").click(function() {
+			$("#ab").animate({
+				left:"550px"
+			},1000);
+		});
+		$("#b2").click(function() {
+			$("#ab").stop();
+		});
+	});
+</script>
+</body>
+</html>

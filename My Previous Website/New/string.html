@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h2> String Object </h2>
+
+<script>
+
+
+
+var x = "I am Fariha ,Ahmed";
+var y = "And I am Pakistani";
+document.write("<b>"+x+"<br></b>");
+
+document.write("<br>Text Length is:"+y.length);
+
+document.write("<br>2nd Name starts at position : "+x.indexOf('Fariha'));
+
+document.write("<br>Ahmed hi at position: "+x.search("Ahmed"));
+
+//They search() and indexOf() are not same
+
+document.write("<br>\"a\" occurs last time at position: "+x.lastIndexOf("i"));
+
+document.write("<br>Cutting everything else but my name: "+y.substring(5,11));
+
+document.write("<br>"+"Replace:<br>"+x.replace(" ","**"));
+
+document.write("<br> Converting to upper case: "+x.toUpperCase());
+
+document.write("<br> Converting to lower case: "+x.toLowerCase());
+
+document.write("<br> Joining Strings: "+x.concat("",y));
+document.write("<br> Finding Char with location: "+x.charAt(2));
+document.write("<br> Spliting with a character : "+y.split(" "));
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
+

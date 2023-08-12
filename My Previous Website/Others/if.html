@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>talha</title>
+</head>
+<body>
+<button onclick="us()">Sign Up</button>
+<button onclick="uk()">Sign In</button>
+<script>
+	function us() {
+		var name = document.getElementById('username').value;
+		var pass = document.getElementById('password').value;
+		var x=localStorage.setItem('username');
+		var y=localStorage.setItem('password');
+		if (x==name && y==pass) {alert('LogIn');} else {alert('accout crerte');}
+		
+	}
+</script>
+</body>
+</html>

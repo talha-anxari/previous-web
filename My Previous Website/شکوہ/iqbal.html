@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>شکوہ</title>
+</head>
+<body>
+    <div class="full-img" id="fullImgBox">
+        <img src="images/s1.jpg" alt="" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="img-gallary">
+        <img src="images/s1.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/s2.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/s3.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S4.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S5.png" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S6.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S7.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S8.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S9.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S10.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S11.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S12.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S13.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S14.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S15.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S16.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S17.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S18.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S19.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S20.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S21.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S22.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S23.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S24.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S25.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S26.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S27.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S28.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S29.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S30.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/S31.jpg" alt="" onclick="openFullImg(this.src)">
+    </div>
+    <script>
+        var fullImgBox = document.getElementById('fullImgBox');
+        var fullImg = document.getElementById('fullImg');
+        function openFullImg(pic){
+            fullImgBox.style.display = 'flex';
+            fullImg.src = pic;
+        }
+        function closeFullImg(){
+            fullImgBox.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

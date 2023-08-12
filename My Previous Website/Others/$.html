@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>$</title>
+</head>
+<body>
+	<p>Hi Everyone</p>
+<script>
+	$(document).ready(function() {
+		var count = 0;
+		$(document).on("click","p",function() {
+			$(this).after("<p>Hello Friend...!!!"+ (count++)+"</p>")
+		});
+	});
+</script>
+</body>
+</html>

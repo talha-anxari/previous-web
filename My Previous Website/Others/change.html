@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hi</title>
+</head>
+<body>
+<ul class="pagination">
+	<li class="page-item"><a class="page-link active" href="#">Previous</a></li>
+	<li class="page-item"><a class="page-link" href="#">1</a></li>
+	<li class="page-item"><a class="page-link" href="#">2</a></li>
+	<li class="page-item"><a class="page-link" href="#">3</a></li>
+	<li class="page-item"><a class="page-link" href="#">4</a></li>
+	<li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+<script>
+	$(document).ready(function() {
+		$('li').click(function() {
+		$('li').removeClass('active')
+		$(this).addClass('active');	
+		});
+		$('img').click(function() {
+		$('img').after('src','audi.jpg');
+		});
+	});
+</script>
+<img src="audi.jpg">
+</body>
+</html>

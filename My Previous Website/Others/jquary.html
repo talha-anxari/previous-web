@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquary</title>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<script>
+	$('#s').change(function() {
+		var a=$(this).val();
+		$('#p1').html(a);
+	});
+</script>
+<p id="p1"></p>
+<label>Subject</label>
+<select id="s">
+	<option>Urdu</option>
+	<option>Maths</option>
+	<option>Biology</option>
+	<option>English</option>
+</select>
+</body>
+</html>

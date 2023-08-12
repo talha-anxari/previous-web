@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*!------------------NavigationBar-----------------*/
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img{
+	height: 40px;
+	padding-left: 30px;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav a{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover{
+	color: #007bff!important;
+}
+.nav-bar{
+	background: #fff;
+}
+.navbar-toggler{
+	border: none!important;
+}
+.nav-link{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+/*!--------x----------NavigationBar--------x---------*/
+/*!------------------Slider-----------------*/
+#slider{
+	width: 100%;
+}
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-caption h5{
+	color: #ccc;
+	font-size: 42px;
+}
+/*!--------x----------Slider--------x---------*/
+/*!------------------About-----------------*/
+#about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555; 
+}
+#about .btn{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content{
+	padding-top: 30px;
+}
+#services{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+#services img{
+	margin-bottom: 20px;
+}
+#services h2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+/*!--------x----------About--------x---------*/
+/*!------------------footer-----------------*/
+.footer{
+	height: 50px;
+}
+}
+.footer p{
+	line-height: 50px;
+}
+/*!--------x----------footer--------x---------*/

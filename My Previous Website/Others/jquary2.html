@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquary</title>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<style>
+		.dl{
+			background-color: teal;
+			width: 500px;
+			height: 150px;
+		}
+	</style>
+</head>
+<body>
+	<div class="dl"></div>
+	<button id="b1">FadeIn</button>
+	<br>
+	<button id="b2">FadeOut</button>
+	<br>
+	<button id="b3">FadeToggle</button>
+	<br>
+	<button id="b4">FadeTo</button>
+	<br>
+<script>
+	$(document).ready(function() {
+	$('#b1').click(function() {
+	$('#b2').fadeIn('slow');	
+	});
+	$('#b2').click(function() {
+	$('.dl').fadeOut('slow');	
+	});
+	$('#b3').click(function() {
+	$('.dl').fadeToggle('slow');
+	});
+	$('#b4').click(function() {
+	$('.dl').fadeTo('slow','0.5');
+	});
+	});
+</script>
+</body>
+</html>

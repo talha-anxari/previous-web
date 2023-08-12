@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HP</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="banner">
+<div class="left_box">
+<div class="wrapper">
+	<img src="Robognix_Img/logo4.png" class="logo">
+<div class="search-box">
+	<img src="Robognix_Img/search.png">
+	<input type="text" placeholder="Search" name="">
+</div>	
+<div class="vertical-line"></div>
+<ul>
+	<li><a href="#">Support Home</a></li>
+	<li><a href="#">Products</a></li>
+	<li><a href="#">Software and Drivers</a></li>
+	<li><a href="#">Diagnostic Tools</a></li>
+	<li><a href="#">Contact Support</a></li>
+	<li><a href="#">Business Support</a></li>
+</ul>
+</div>	
+</div>
+<div class="right_box">
+<nav>
+<ul>
+	<li><a href="#">Laptops & 2-in-1s</a></li>
+	<li><a href="#">Desktop</a></li>
+	<li><a href="#">Printer</a></li>
+	<li><a href="#">3D Printer</a></li>
+	<li><a href="#">Ink & Toner</a></li>
+	<li><a href="#">Display & Accessories</a></li>
+	<li><a href="#">Buiness Solution</a></li>
+	<li><a href="#">Support</a></li>
+</ul>	
+</nav>
+<h3>HP® Asia Pacific</h3>	
+<div class="laptop">
+	<img src="Robognix_Img/laptop.png">
+	<h1>HP® Computer</h1>
+<div class="features">
+<div>
+	<small>Play</small>
+	<img src="Robognix_Img/play.png">
+</div>
+<div>
+	<small>The Making</small>
+	<img src="Robognix_Img/settings.png">
+</div>
+<div>
+	<small>Download</small>
+	<img src="Robognix_Img/download.png">
+</div>	
+</div>
+</div>
+<div class="circle"></div>
+<div class="pagination">
+<ul>
+	<li class="active"><a href="#">01</a></li>
+	<li><a href="#">02</a></li>
+	<li><a href="#">03</a></li>
+    <li><a href="#">04</a></li>
+	<li><a href="#">05</a></li>
+</ul>	
+</div>
+    <img src="Robognix_Img/volume.png" class="volume">
+</div>	
+</div>
+<div class="smallCursor"></div>
+<div class="largeCursor"></div>
+<script> 
+	var smallCursor =document.querySelector('.smallCursor');
+	var largeCursor =document.querySelector('.largeCursor');
+	document.onmousemove = function(e) {
+		smallCursor.style.left = (e.pageX -5) + 'px';
+		smallCursor.style.top = (e.pageY -5) + 'px';
+		smallCursor.style.display = 'block';
+
+		largeCursor.style.left = (e.pageX -22) + 'px';
+		largeCursor.style.top = (e.pageY -22) + 'px';
+		largeCursor.style.display = 'block';
+	}
+</script>
+</body>
+</html>

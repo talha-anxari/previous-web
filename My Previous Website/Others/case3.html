@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	function sum() {
+	  var a= parseInt(document.getElementById('t1').value);
+	  var a= parseInt(document.getElementById('t2').value);
+	  var a= parseInt(document.getElementById('t3').value);
+	  switch(c)
+	  {
+	  	case'+';
+	  	d=a+b;
+	  	document.getElementById('li').innerHTML=d;
+	  	break;
+	  	case'-';
+	  	d=a+b;
+	  	document.getElementById('li').innerHTML=d;
+	  	break;
+	  	case'*';
+	  	d=a+b;
+	  	document.getElementById('li').innerHTML=d;
+	  	break;
+	  	case'/';
+	  	d=a+b;
+	  	document.getElementById('li').innerHTML=d;
+	  	break;
+	  	default:
+	  	document.getElementById('li').innerHTML='error';
+	  };
+	};
+</script>
+<label>No.1</label>
+<input type="text" id="t1" name="">
+<br><br>
+<label>No.2</label>
+<input type="text" id="t2" name="">
+<br><br>
+<label>operator</label>
+<input type="text" id="t3" name="">
+<br><br>
+<button onclick="sum()">Calculate</button>
+<label id="li"></label>
+</body>
+</html>

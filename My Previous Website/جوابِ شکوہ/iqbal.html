@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>جوابِ شکوہ</title>
+</head>
+<body>
+    <div class="head"></div>
+    <div class="full-img" id="fullImgBox">
+        <img src="images/s1.jpg" alt="" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="img-gallary">
+        <img src="images/JS1.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS2.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS3.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS4.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS5.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS6.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS7.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS8.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS9.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS10.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS11.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS12.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS13.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS14.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS15.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS16.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS17.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS18.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS19.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS20.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS21.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS22.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS23.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS24.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS25.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS26.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS27.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS28.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS29.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS30.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS31.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS32.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS33.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS34.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS35.jpg" alt="" onclick="openFullImg(this.src)">
+        <img src="images/JS36.jpg" alt="" onclick="openFullImg(this.src)">
+    </div>
+    <script>
+        var fullImgBox = document.getElementById('fullImgBox');
+        var fullImg = document.getElementById('fullImg');
+        function openFullImg(pic){
+            fullImgBox.style.display = 'flex';
+            fullImg.src = pic;
+        }
+        function closeFullImg(){
+            fullImgBox.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

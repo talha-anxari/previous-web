@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Swiper Slider</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+</head>
+<body>
+<div class="main">
+<div class="header">
+	<img src="images/menu.png" class="menu-icon">
+	<p>MEET APP</p>
+	<img src="images/bell.png" class="bell-icon">
+</div>	
+<div class="main-text">
+	<h2>OUR TEAM</h2>
+	<small>Google Business Tools That Work Seamlessly From Your Computer, Phone or Tablet. Powerful Business Apps. Flexible & Scalable. Business-grade Security. 24/7 Phone Support. Start Your Free Trial. 30GB Of Storage Per User. Simple & Intuitive.</small>
+</div>
+<!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<img src="images/apple.jpg">
+      </div>
+      <div class="swiper-slide">
+      	<img src="images/apple2.jpg">
+      </div>
+      <div class="swiper-slide">
+      	<img src="images/apple3.jpg">
+      </div>
+      <div class="swiper-slide">
+      	<img src="images/apple4.jpg">
+      </div>
+      <div class="swiper-slide">
+      	<img src="images/apple5.jpg">
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+<div class="footer-menu">
+	<img src="images/home.png">
+	<img src="images/search1.png">
+	<img src="images/user.png">
+	<img src="images/undo.png">
+</div>
+</div>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 40,
+      centeredSlides:true,
+      grabCursor:true,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>

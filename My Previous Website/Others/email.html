@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>email</title>
+</head>
+<body>
+<script>
+	var emailpattern = /^[a-zA-Z0-9.!#$%&,*+/=?^_`{|}~-]+@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9])*$/;
+	 var email ! emailpattern.exec(prompt('Enter email:'));
+	 if (email != null) {
+	 	alert('enter valid email');
+	 } else {
+	 	alert('invalid');
+	 }
+</script>
+</body>
+</html>

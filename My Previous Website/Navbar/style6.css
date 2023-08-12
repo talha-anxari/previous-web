@@ -1,0 +1,67 @@
+html body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url(Lamborghini2.jpg);
+	background-size: cover;
+}
+.container{
+	width: 100%;
+}
+a{
+	list-style-type: none;
+	font-size: 28px;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+li{
+	display: inline;
+}
+.left{
+	float: left;
+	width: 350px;
+}
+.right{
+	float: right;
+	width: 350px;
+}
+a:hover{
+	background-color: #ccc;
+	border-radius: 40px;
+}
+.form{
+	width: 400px;
+	margin: 10px auto;
+	text-align: center;
+	padding: 30px;
+	margin-top: 80px;
+}
+button:hover{
+	background: #ccc;
+}
+.inputA{
+	border-radius: 15px 0 0 15px;
+	border:1px solid;
+	padding: 12px;
+}
+.inputB{
+	border-radius: 0 15px 15px 0;
+	border:1px solid;
+	padding: 12px;
+}
+.btn{
+	width: 150px;
+	border-radius: 15px;
+	margin: 10% auto;
+	text-align: center;
+	padding: 10px;
+}
+h1{
+	color: #fff;
+	text-shadow: 0 5px 5px;
+	margin-left: 10px;
+}
+small{
+	font-size: 10px;
+}

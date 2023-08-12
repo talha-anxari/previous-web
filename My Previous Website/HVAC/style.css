@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+a,i{
+	list-style-type: none;
+	color: #777;
+	text-decoration: none;
+}
+main{
+	width: 100%;
+	height: 100vh;
+	background-image: url(ac3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav{
+	position: absolute;
+	height: 15vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #000;
+	border-bottom: 3px solid yellow;
+	opacity: 1px;
+}
+.logo a{
+	position: absolute;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.logo img{
+	width: 40px;
+	position: absolute;
+	top: -18px;
+}
+.menu_list ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
+
+}
+.menu_list ul li a{
+	font-size: 15px;
+	padding: 10px 12px;
+	color: #fff;
+}
+.menu_list ul li a:hover{
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, 
+	rgba(0,0,0,0.15) 100%), 
+	radial-gradient(at top center, rgba(255,255,255,0.40) 0%, 
+	rgba(0,0,0,0.40) 120%) #989898; 
+    background-blend-mode: multiply,multiply;
+}
+.search{
+	padding: 0 12px;
+}
+.search input{
+	padding: 10px 12px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	outline: none;
+}
+.search a{
+	padding: 10px 12px;
+	color: #fff;
+	background: chocolate;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+.search a i{
+	padding: 0 3px;
+}
+.contact a{
+	padding: 10px 12px;
+	background: chocolate;
+	color: #fff;
+}
+.contact a:hover{
+	background-image: 
+	linear-gradient(to right, #434343 0%, black 100%);
+}
+.heading h1{
+	position: absolute;
+	top: 50%;
+	left: 32%;
+	font-size: 50px;
+	color: #888;
+	text-shadow: 2px 1px 5px black;
+}
+.heading h1:before{
+	bottom: 0;
+	left: 4px;
+	border: 2px solid #000;
+}
+.heading a{
+	position: absolute;
+	padding: 10px 30px;
+	color: #fff;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, 
+	rgba(0,0,0,0.15) 100%), 
+	radial-gradient(at top center, rgba(255,255,255,0.40) 0%, 
+	rgba(0,0,0,0.40) 120%) #989898; 
+    background-blend-mode: multiply,multiply;
+	top: 60%;
+	left: 50%;
+	text-shadow: 2px 1px 5px black;
+}
+.heading a:hover{
+	background-image: 
+	linear-gradient(to right, #434343 0%, black 100%);
+}
+.social{
+	width: 100px;
+	height: auto;
+	position: absolute;
+	right: 0;
+	top: 40%;
+}
+.fa-icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	background-image: 
+	linear-gradient(to right, #434343 0%, black 100%);
+	align-items: center;
+}
+.fa-icon:nth-child(even){
+	margin: 20px 0;
+}
+.fa-icon:hover{
+    background-image: 
+    linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+position: relative;
+	background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
